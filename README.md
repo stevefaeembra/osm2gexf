@@ -14,7 +14,7 @@ An example can be found in demo.py
 
 For larger OSM files I suggest you enable the 'network simplify', as shown in demo.py. 
 This converts series of edges so that each series of edges between junctions is simplified to a single segment. 
-This helps keep the network size down
+This helps keep the network size down, at the cost of map aesthetics. For example, roundabouts with lots of line segments will be simplified into diamond shapes.
 
 Dependencies
 ============
@@ -36,7 +36,7 @@ When importing the GEXF,
 
 When running this plugin, I suggest you use the following settings:-
 
-Latitude - lat
-Longitude - lon
-Scale - 500000 to 15000000
+- Latitude - lat
+- Longitude - lon
+- Scale - somewhere between 500000 and 15000000 (town/city size maps)
 
